@@ -1,0 +1,11 @@
+CREATE DATABASE LOGICFIRST; -- creates a new database
+-- TO DELETE A DATABASE
+DROP DATABASE LOGICFIRST;
+DROP SCHEMA LOGICFIRST; -- same as above. u can use DATABASE Or SCHEMA
+DROP SCHEMA IF EXISTS LOGICFIRST; -- prevents error if db not found
+
+SHOW DATABASES; -- shows all the databases
+SHOW SCHEMAS; -- same as above. shows schemas/db
+
+USE SYS; -- uses this database for all further commands
+SHOW TABLES;-- shows all tables in the database being used

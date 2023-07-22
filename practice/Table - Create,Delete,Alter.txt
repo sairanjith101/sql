@@ -1,0 +1,23 @@
+//creating a table
+CREATE TABLE student(
+	id INT PRIMARY KEY,
+    name VARCHAR(30),
+    gpa DECIMAL(3,2)
+);
+-- ----or-----
+CREATE TABLE student( 
+	id INT,
+    name VARCHAR(30),
+    gpa DECIMAL(3,2),
+    PRIMARY KEY(id)
+);
+
+DROP TABLE student; -- drops the table
+
+DESCRIBE student; -- describes the columns in the table student
+
+ALTER TABLE student ADD department VARCHAR(5); -- Adds a new column department to the student table
+
+ALTER TABLE student DROP COLUMN department; -- drops the department column from student table
+-- ---or---
+ALTER TABLE student DROP department; -- same as above
