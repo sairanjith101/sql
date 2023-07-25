@@ -1,2 +1,0 @@
-SELECT * FROM student; -- displays all rows and columns in the student table
-SELECT id,name FROM student; -- displays specific columns
